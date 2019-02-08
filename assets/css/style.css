@@ -3,13 +3,13 @@ body {
 	font-family: helvetica;
 	overflow: scroll;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: 1fr 400px;
 }
 
 #main {
 	align-items: center;
 	box-sizing: border-box;
-	font: calc(1.8vh) "Helvetica", sans-serif;
+	font: calc(2vh) "Helvetica", sans-serif;
 	justify-content: "center";
 	padding: 2em;
 }
@@ -18,7 +18,7 @@ body {
   padding-top:50px;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
 }
 
@@ -32,7 +32,7 @@ body {
 #calendar{
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
 }
 
@@ -49,8 +49,7 @@ body {
 	text-align: right;
 	float: right;
 	top:100px;
-	margin-right: 200px;
-	padding-left: 200px;
 	display: block;
 	position: relative;
+
 }
