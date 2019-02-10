@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "Grotesk";
+  src: url(../fonts/grotesk.ttf) format("truetype");
+}
+
+h1 { font-family: "Grotesk", sans-serif }
+
 body {
 	background-image: url(../images/background.png);
-	font-family: helvetica;
+	font-family: "Grotesk", sans-serif;
 	overflow: scroll;
 	display: grid;
 	grid-template-columns: 1fr 400px;
@@ -9,7 +16,7 @@ body {
 #main {
 	align-items: center;
 	box-sizing: border-box;
-	font: calc(2vh) "Helvetica", sans-serif;
+	font: calc(2vh) "Grotesk", sans-serif;
 	justify-content: "center";
 	padding: 2em;
 }
@@ -36,12 +43,19 @@ body {
   width: 100%;
 }
 
+p {
+ 	margin-top: 3px;
+    margin-bottom: 3px;
+}
+
 #calendar > *{
   justify-content: left;
   flex-grow: 1;
+  margin-right: 20px;
   height: 0;
   padding-bottom: 90%;
-  width: 1px;
+
+/*  width: 1px;*/
 }
 
 #maintext {
