@@ -18,6 +18,9 @@ body {
 	grid-template-columns: 1fr 400px;
 }
 
+header {
+  padding-top: 50px;
+}
 #main {
 	align-items: center;
 	box-sizing: border-box;
@@ -36,16 +39,17 @@ body {
 }
 
 p {
- 	margin-top: 3px;
+ 	margin-top: 5px;
     margin-bottom: 3px;
 }
 
 #calendar > *{
   justify-content: left;
   flex-grow: 1;
-  margin-right: 10px;
+  margin-right: 0px;
+  padding-right: 10px;
   height: 0;
-  min-width: 110px;
+  min-width: 125px;
   padding-bottom: 90%;
 
 /*  width: 1px;*/
@@ -67,6 +71,6 @@ p {
   left: 20;
   padding: 5px 15px;
   white-space: pre-wrap;
-  width: 200px;
+  width: 400px;
 }
 
